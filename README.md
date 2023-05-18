@@ -1,3 +1,3 @@
 # freecodecamp_Tribute-page
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-bo7who)
+https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page
