@@ -1,3 +1,4 @@
-# freecodecamp_Tribute-page
+## Codevixens Academy exam
 
-https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page
+#### Clone this page created by Freecodecamp 
+https://tribute-page.freecodecamp.rocks/
