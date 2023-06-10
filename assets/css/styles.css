@@ -8,7 +8,8 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
   background-color: white;
   padding-top: 25px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
   color: #333;
   
 }
@@ -22,7 +23,9 @@ body{
   width: 99%;
   border-radius: 5px;
   background-color: #eee;
-  padding-bottom: 10px;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0px;
+  /* background-color: red; */
   /* padding: 0px 12px; */
 }
 
@@ -64,7 +67,7 @@ figcaption{
   width: 35%;
 }
 
-#tribute-info > h4{
+.container > h4{
   margin: 40px 0px;
 }
 
@@ -91,6 +94,7 @@ li{
 
 h3{
   margin-top: 40px;
+ 
   /* padding-bottom: 0px; */
   /* padding-bottom: 10px; */
   font-size: 15px;
@@ -98,13 +102,75 @@ h3{
 
 a{
   color: #74638f;
+  
 }
 
 
-/* .indian-pm{
-  font-size: 20px;
-} */
-/* UNTOUCHED */
+/* SMALLER SCREEN*/
+@media screen and (max-width: 600px) {
+  body{
+    padding-top: 8px;
+    padding-bottom: 10px;
+  }
+
+  .intro{
+    padding-top: 25px;
+    padding-bottom: 7px;
+    font-size: 11px;
+    line-height: 2rem;
+  }
+  
+  .intro > p{
+    font-size: 18px;
+  }
+
+  img{
+    max-width: 98%; 
+  }
+
+  figcaption{
+    font-size: 17.8px;
+    padding: 3px;
+    line-height: 1.65rem;
+  }
+
+  .container > h4{
+    margin: 20px 0px;
+    font-size: 1.2rem;
+  }
+
+  #tribute-info{
+    width: 60%;
+  }
+
+  ul{
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  #tribute-info > p{
+    font-size: 18.5px;
+  }
+  
+  .recom{
+    margin-top: 40px;
+    line-height: 1.7rem;
+    /* margin-bottom: 15px; */
+  }
+
+  .indian-pm{
+    margin-top: 10px;
+  }
+
+  h3{
+    /* margin-bottom: 0px;
+    padding-bottom: 0px; */
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  
+}
 
 
 
@@ -112,9 +178,8 @@ a{
 
 
 
-/* h1{
-  padding-top: 15px; 
-} */
+
+
 
 
 
