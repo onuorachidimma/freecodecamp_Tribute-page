@@ -7,7 +7,8 @@
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
   background-color: white;
-  padding: 25px 0px;
+  padding-top: 25px;
+  padding-bottom: 10px;
   color: #333;
   
 }
@@ -21,12 +22,13 @@ body{
   width: 99%;
   border-radius: 5px;
   background-color: #eee;
+  padding-bottom: 10px;
   /* padding: 0px 12px; */
 }
 
 .intro{
   /* padding-bottom: 0; */
-  padding-top: 20px;
+  padding-top: 35px;
   line-height: 2.9rem;
 }
 
@@ -77,6 +79,31 @@ ul{
 li{
   margin-bottom: 16px;
 }
+
+#tribute-info > p{
+  font-size: 12.4px;
+}
+
+.recom{
+  margin-top: 40px;
+  /* margin-bottom: 15px; */
+}
+
+h3{
+  margin-top: 40px;
+  /* padding-bottom: 0px; */
+  /* padding-bottom: 10px; */
+  font-size: 15px;
+}
+
+a{
+  color: #74638f;
+}
+
+
+/* .indian-pm{
+  font-size: 20px;
+} */
 /* UNTOUCHED */
 
 
@@ -85,14 +112,10 @@ li{
 
 
 
-h1{
+/* h1{
   padding-top: 15px; 
-}
+} */
 
-.recom{
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 
 
 
